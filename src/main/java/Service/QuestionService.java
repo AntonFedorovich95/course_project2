@@ -1,4 +1,4 @@
-package pro.sky.course_project2;
+package Service;
 
 import pro.sky.course_project2.data.Question;
 

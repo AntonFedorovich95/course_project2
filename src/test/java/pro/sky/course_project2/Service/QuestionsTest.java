@@ -1,11 +1,12 @@
-package pro.sky.course_project2;
+package pro.sky.course_project2.Service;
 
+import Service.JavaQuestionService;
+import Service.QuestionService;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-import pro.sky.course_project2.QuestionService;
-import pro.sky.course_project2.JavaQuestionService;
+import pro.sky.course_project2.Exceptions.QuestionNotFoundException;
 
-import static pro.sky.course_project2.ConstantsTest.*;
+import static pro.sky.course_project2.Constants.ConstantsTest.*;
 
 public class QuestionsTest {
         private final QuestionService mut = new JavaQuestionService();
