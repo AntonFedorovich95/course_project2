@@ -1,6 +1,7 @@
-package pro.sky.course_project2;
+package Service;
 
 import org.springframework.stereotype.Service;
+import pro.sky.course_project2.Exceptions.QuestionNotFoundException;
 import pro.sky.course_project2.data.Question;
 
 import java.util.*;
