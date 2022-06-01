@@ -1,7 +1,5 @@
-package pro.sky.course_project2.Service;
+package pro.sky.course_project2.service;
 
-import Service.ExaminerServiceImpl;
-import Service.QuestionService;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -14,7 +12,7 @@ import java.util.Collection;
 import java.util.List;
 
 import static org.mockito.Mockito.when;
-import static pro.sky.course_project2.Constants.ConstantsTest.*;
+import static pro.sky.course_project2.constants.ConstantsTest.*;
 
 @ExtendWith(MockitoExtension.class)
 public class ExaminerTest {

@@ -1,10 +1,10 @@
-package pro.sky.course_project2.Controller;
+package pro.sky.course_project2.сontroller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import Service.ExaminerService;
+import pro.sky.course_project2.service.ExaminerService;
 import pro.sky.course_project2.data.Question;
 
 import java.util.Collection;
