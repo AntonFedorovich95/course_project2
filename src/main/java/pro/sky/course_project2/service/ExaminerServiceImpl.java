@@ -1,7 +1,7 @@
-package Service;
+package pro.sky.course_project2.service;
 
 import org.springframework.stereotype.Service;
-import pro.sky.course_project2.Exceptions.QuestionArrayListIndexOutOfBoundsException;
+import pro.sky.course_project2.exceptions.QuestionArrayListIndexOutOfBoundsException;
 import pro.sky.course_project2.data.Question;
 
 import java.util.ArrayList;

@@ -1,10 +1,10 @@
-package pro.sky.course_project2.Controller;
+package pro.sky.course_project2.сontroller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
-import Service.QuestionService;
+import pro.sky.course_project2.service.QuestionService;
 import pro.sky.course_project2.data.Question;
 
 @RestController

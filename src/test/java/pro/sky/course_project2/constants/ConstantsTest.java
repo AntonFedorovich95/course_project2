@@ -1,4 +1,4 @@
-package pro.sky.course_project2.Constants;
+package pro.sky.course_project2.constants;
 
 import pro.sky.course_project2.data.Question;
 
